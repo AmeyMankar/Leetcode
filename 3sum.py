@@ -22,8 +22,6 @@ class Solution:
 
         for item in nums:
             if item not in temp_ls:
-                # print(nums.index(item))
-                # temp_ls.append(item)
                 temp_ls.append(int(item))
                 if sum(temp_ls) == 0:
                     final_ls.append(temp_ls[:])
